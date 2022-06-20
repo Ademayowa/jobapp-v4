@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-poppins;
+  }
+}
+
+@layer components {
+  .header {
+    @apply sticky bg-blueColor top-0 z-[1000] flex h-[72px] items-center px-10 md:px-12 text-white;
+  }
+
+  .header-link {
+    @apply flex items-center space-x-1 cursor-pointer font-medium;
+  }
+}
