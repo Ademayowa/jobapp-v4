@@ -6,6 +6,7 @@ import Job from '@/components/Job';
 import Layout from '@/components/Layout';
 import Search from '@/components/Search';
 import SectionTitle from '@/components/SectionTitle';
+import { sortByDate } from '@/utils/index';
 
 export default function Home({ jobs }) {
   console.log(jobs);
@@ -47,7 +48,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      jobs,
+      jobs: jobs.sort(sortByDate),
     },
   };
 }

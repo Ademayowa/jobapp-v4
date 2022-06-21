@@ -1,10 +1,11 @@
 ---
-role: 'Frontend developer'
+role: 'Devops Developer'
 salary: '$3k-$6k'
-date: 'June 14, 2022'
+date: 'May 29, 2022'
 location: 'England UK'
-category: 'Frontend'
+category: 'Devops'
 description: 'We are looking for a front end developer with some experience in JavaScript, React/Angular technologies to join a dynamic team within a digital agency.'
+
 text: 'In this role, you will be responsible for developing and implementing user interface components using React.js concepts and workflow such as Redux, Flux, and Webpack.'
 info: 'Job Requirements'
 title: 'Responsibilities'

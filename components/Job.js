@@ -22,6 +22,11 @@ export default function Job({ job }) {
           {job.frontmatter.location}
         </p>
       </div>
+
+      <div className='text-grayColor mt-2.5'>
+        <p>Date posted: {job.frontmatter.date}</p>
+      </div>
+
       <p className='text-grayColor text-base mt-2.5 !w-full md:w-3/4 leading-8'>
         {job.frontmatter.description}
       </p>

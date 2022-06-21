@@ -1,7 +1,7 @@
 ---
-role: 'Frontend developer'
+role: 'Frontend Engineer'
 salary: '$3k-$6k'
-date: 'June 14, 2022'
+date: 'June 13, 2022'
 location: 'England UK'
 category: 'Frontend'
 description: 'We are looking for a front end developer with some experience in JavaScript, React/Angular technologies to join a dynamic team within a digital agency.'

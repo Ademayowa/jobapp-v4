@@ -1,6 +1,7 @@
 ---
 role: 'Backend developer'
 salary: '$4k-$8k'
+date: 'April 4, 2022'
 location: 'Montreal Canada'
 category: 'Backend'
 description: 'Perpetual Solution is a Canadian owned and operated company specializing in Website Development and E-Commerce solutions.'
