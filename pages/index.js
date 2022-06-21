@@ -1,12 +1,13 @@
 import fs from 'fs';
 import path from 'path';
+import Link from 'next/link';
 import matter from 'gray-matter';
+import { sortByDate } from '@/utils/index';
 import Hero from '@/components/Hero';
 import Job from '@/components/Job';
 import Layout from '@/components/Layout';
 import Search from '@/components/Search';
 import SectionTitle from '@/components/SectionTitle';
-import { sortByDate } from '@/utils/index';
 
 export default function Home({ jobs }) {
   console.log(jobs);
@@ -20,6 +21,14 @@ export default function Home({ jobs }) {
         {jobs.map((job, index) => (
           <Job key={index} job={job} />
         ))}
+      </div>
+
+      <div className='flex justify-center mt-5 !pb-10'>
+        <Link href='/jobs'>
+          <a className='rounded bg-red-500 px-5 py-3 text-white font-light'>
+            View all jobs
+          </a>
+        </Link>
       </div>
     </Layout>
   );
