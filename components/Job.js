@@ -6,7 +6,7 @@ export default function Job({ job }) {
 
   return (
     <div
-      // onClick={() => router.push(`/jobs/${job.attributes.slug}`)}
+      onClick={() => router.push(`/jobs/${job.slug}`)}
       className='col-span-10 lg:col-span-4 mx-auto rounded-lg shadow-md my-3 bg-white p-7 cursor-pointer'
     >
       <div className='flex items-center text-blueColor font-bold'>
