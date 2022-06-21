@@ -48,7 +48,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      jobs: jobs.sort(sortByDate),
+      jobs: jobs.sort(sortByDate).slice(0, 4),
     },
   };
 }
