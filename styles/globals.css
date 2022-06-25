@@ -17,3 +17,17 @@
     @apply flex items-center space-x-1 cursor-pointer font-medium;
   }
 }
+
+/* Styles for markedown html markup */
+.job-post li {
+  list-style: circle;
+}
+
+.job-post a {
+  background-color: #0f4a7b;
+  padding: 10px 20px;
+  color: white;
+  font-size: bold;
+  line-height: 4;
+  border-radius: 4px;
+}
