@@ -10,11 +10,10 @@ import Search from '@/components/Search';
 import SectionTitle from '@/components/SectionTitle';
 
 export default function Home({ jobs }) {
-  // console.log(jobs);
   return (
     <Layout title='Find Gigs'>
-      {/* <Hero />
-      <Search /> */}
+      <Hero />
+      <Search />
       <SectionTitle title='Latest Jobs' />
 
       <div className='grid grid-cols-8 gap-x-7 px-10 md:px-12 md:mx-10'>
