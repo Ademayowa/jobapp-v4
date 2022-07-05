@@ -10,7 +10,7 @@ import Search from '@/components/Search';
 import SectionTitle from '@/components/SectionTitle';
 
 export default function Home({ jobs }) {
-  console.log(jobs);
+  // console.log(jobs);
   return (
     <Layout title='Find Gigs'>
       {/* <Hero />
