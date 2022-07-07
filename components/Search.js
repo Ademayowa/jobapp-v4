@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { SearchIcon, LocationMarkerIcon } from '@heroicons/react/outline';
+import SearchResults from './SearchResults';
 
 export default function Search() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -21,7 +22,7 @@ export default function Search() {
   }, [searchTerm]);
 
   return (
-    <div className='flex flex-col md:flex-row justify-between bg-white -mt-10 shadow-lg rounded-lg mx-12 px-5 py-10 md:p-5'>
+    <div className='flex flex-col md:flex-row justify-between bg-white -mt-10 shadow-lg rounded-lg mx-12 px-5 py-10 md:p-5 relative'>
       <div className='flex items-center space-x-2'>
         <SearchIcon className='hidden md:block h-5 w-5 text-sky-500' />
         <input
@@ -47,6 +48,8 @@ export default function Search() {
           Find jobs
         </button>
       </div>
+
+      <SearchResults results={searchResults} />
     </div>
   );
 }
