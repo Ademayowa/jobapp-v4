@@ -7,7 +7,7 @@ export default (req, res) => {
 
   if (process.env.NODE_ENV === 'production') {
     // fetch file from cache in production
-    posts = require('../../cache/data').jobs;
+    jobs = require('../../cache/data').jobs;
   } else {
     // CANNOT read fs.readdirSync once you deployed, so you have to fetch from cache
     const files = fs.readdirSync(path.join('jobs'));
@@ -36,5 +36,4 @@ export default (req, res) => {
   );
 
   res.status(200).json(results);
-  console.log(results);
 };
