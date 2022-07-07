@@ -11,7 +11,8 @@ export default function Search() {
         setSearchResults([]);
       } else {
         const res = await fetch(`/api/search?q=${searchTerm}`);
-        const { results } = await res.json();
+        const results = await res.json();
+        // console.log(results);
         setSearchResults(results);
       }
     };
