@@ -24,7 +24,7 @@ export default function Job({
 }) {
   return (
     <Layout title={role}>
-      <div className='py-5 shadow-lg bg-white rounded-lg m-5 md:m-10'>
+      <div className='py-5 shadow-lg bg-white rounded-lg w-4/5 my-8 mx-auto'>
         <div className='px-10 md:mx-10 md:px-12 py-4'>
           <div className='my-4'>
             <Link href='/jobs'>

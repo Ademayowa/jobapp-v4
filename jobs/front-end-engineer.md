@@ -1,18 +1,20 @@
 ---
-role: 'Frontend Engineer'
-salary: '$3k-$6k'
-date: 'June 13, 2022'
-location: 'England UK'
+role: 'Senior Frontend Engineer'
+salary: '$125,400k - $184,600k'
+date: 'April 18, 2023'
+location: 'Austin, TX'
 category: 'Frontend'
-description: 'We are looking for a front end developer with some experience in JavaScript, React/Angular technologies to join a dynamic team within a digital agency.'
-text: 'In this role, you will be responsible for developing and implementing user interface components using React.js concepts and workflow such as Redux, Flux, and Webpack.'
+description: 'The Cisco XDR Team is seeking a Senior Frontend Software Engineer with strong expertise in React.js.'
 info: 'Job Requirements'
 ---
 
-- Minimum bachelor degree in computer science and any other relevant area.
-- In-depth knowledge of JavaScript with at least 2-3 years of experience in web application development using : Angular/React.
-- In-depth knowledge of JavaScript with at least 2-3 years of experience in web application development using : Angular/React.
-- Familiarity with Vanilla JS/Typescript/ECMAScript 6, Javascript Patterns, HTML5/CSS3, Git.
-- Interest in monitoring and training in new technologies.
+- Advanced understanding of JavaScript fundamentals.
+- Experience interfacing with RESTful and/or GraphQL APIs.
+- Solid understanding of HTML, CSS, and core browser concepts.
+- Knowledge of modern frontend tools and libraries such as Webpack, Babel, and ES6.
+- Experience with testing frameworks such as Cypress and Jest.
+- Experience with performance and optimization problems, particularly at large scale, and a demonstrated ability to diagnose and prevent these problems.
+- Ability to clearly and concisely communicate about complex technical, architectural, and/or organizational problems and propose thorough iterative solutions.
+- Demonstrable experience developing cross-browser, responsive web applications.
 
-[apply for this role](https://www.randstad.ch/jobs/s-it/front-end-developer_geneve_39520491/?utm_source=indeed&igbTracker=640690341&utm_campaign=igb_advertising_IT&utm_medium=igb+cpc&utm_content=Front+End+Developer+%2817686%29+%5B0bcd2f08604ecabb_7b2e2cfe72295%5D),
+[apply for this role](https://jobs.cisco.com/jobs/ProjectDetail/Senior-Frontend-Engineer-react-js/1400463?source=LinkedIn),

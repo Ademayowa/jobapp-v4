@@ -1,18 +1,21 @@
 ---
-role: 'Frontend developer'
-salary: '$3k-$6k'
-date: 'June 14, 2022'
-location: 'England UK'
+role: 'Senior Frontend Engineer'
+salary: '$160k - $260k'
+date: 'April 14, 2023'
+location: 'United States'
 category: 'Frontend'
-description: 'We are looking for a front end developer with some experience in JavaScript, React/Angular technologies to join a dynamic team within a digital agency.'
-text: 'In this role, you will be responsible for developing and implementing user interface components using React.js concepts and workflow such as Redux, Flux, and Webpack.'
+description: "ClickUp is the world's only all-in-one productivity platform that flexes to the way people want to work."
+text: 'We need somebody who understands the challenges of rapid growth startups. You will have to be able to express your philosophy and ideas to both technical and non technical audience. Ideally, you have worked in pure full stack roles and understand the intricacies of building out scalable microservices and microfrontends.'
 info: 'Job Requirements'
 ---
 
-- Minimum bachelor degree in computer science and any other relevant area.
-- In-depth knowledge of JavaScript with at least 2-3 years of experience in web application development using : Angular/React.
-- In-depth knowledge of JavaScript with at least 2-3 years of experience in web application development using : Angular/React.
-- Familiarity with Vanilla JS/Typescript/ECMAScript 6, Javascript Patterns, HTML5/CSS3, Git.
-- Interest in monitoring and training in new technologies.
+- 8+ years working experience on large-scale SaaS products.
+- Proficient with TypeScript, Angular/React, and vanilla JavaScript.
+- Strong experiences in SOA, API best practices, and event based solutions.
+- Working knowledge in REST, gRPC, GraphQL, and WebSocket.
+- Experiences in persistence technologies such as relational, NoSQL, and in memory cache.
+- Proficient understanding of server-side CSS pre-processing platforms, such as SASS.
+- Excellent presentation and story-telling skills are a must.
+- Strong sense of ownership and accountabilitys.
 
-[apply for this role](https://www.randstad.ch/jobs/s-it/front-end-developer_geneve_39520491/?utm_source=indeed&igbTracker=640690341&utm_campaign=igb_advertising_IT&utm_medium=igb+cpc&utm_content=Front+End+Developer+%2817686%29+%5B0bcd2f08604ecabb_7b2e2cfe72295%5D),
+[apply for this role](https://clickup.com/careers?gh_jid=4737094004),
